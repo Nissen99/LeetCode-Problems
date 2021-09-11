@@ -34,14 +34,12 @@ public class Solution
 
     }
 
-    double returnValue;
 
     if (mergedArray.length % 2 == 0){
 
-      returnValue = (double) (mergedArray[mergedArray.length/2] + mergedArray[mergedArray.length/2 -1]) /2;
+      return (double) (mergedArray[mergedArray.length/2] + mergedArray[mergedArray.length/2 -1]) /2;
     }else {
-      returnValue = mergedArray[mergedArray.length/2 ];
+      return mergedArray[mergedArray.length/2 ];
     }
-    return returnValue;
   }
 }
