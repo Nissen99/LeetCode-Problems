@@ -12,7 +12,7 @@ class Solution {
 
     for (int i = 0; i < numberAsString.length(); i++)
     {
-      if (numberAsString.charAt(i) == numberAsString.charAt(numberAsString.length() - 1 - i)) {
+      if (! (numberAsString.charAt(i) == numberAsString.charAt(numberAsString.length() - 1 - i))) {
         return false;
       }
     }
